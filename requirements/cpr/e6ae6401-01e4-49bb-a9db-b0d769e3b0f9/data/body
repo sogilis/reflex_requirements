@@ -9,6 +9,5 @@
 				
 **BODY**
 
-   Run est la demande de mise en marche de la pompe. Lorsque la demande "Run" est activée, l'automate envoie un ordre de marche à la pompe par
-intermédiaire de la sortie "Ordre De Marche". Cet ordre doit être maintenu.
+   Run est la demande de mise en marche de la pompe. Lorsque la demande "Run" est activée, l'automate envoie un ordre de marche à la pompe par intermédiaire de la sortie "Ordre De Marche". Cet ordre doit être maintenu.
  Lorsque la pompe est en marche l'entrée Running est validée.
