@@ -1,15 +1,17 @@
-INPUT
+**INPUT**
 
-    *  Open  
-    *  Close    
-    *  Opened      
-    *  Closed       
+   * **Open**  
+   * **Close**    
+   * **Opened**      
+   * **Closed**       
 
-OUTPUT
+**OUTPUT**
 
-    *  Open_Order  : ordre d'ouverture de la vanne 
-    *  Close_Order  :  ordre de fermeture de la vanne 
+   *  **Open_Order**  :  ordre d'ouverture de la vanne 
+   *  **Close_Order**  :  ordre de la fermeture de la vanne 
+		
+**BODY**
 
-Open est la demande d'ouverture de la pompe. Lorsque la demande “Open” est activée, l’automate envoie une ouverture à la vanne par intermédiaire de la sortie “ Open_Order". Cet ordre doit être maintenu jusqu'à ce que la demande fermeture est validé par la  la demande de fermeture Close cependant l’automate envoie un ferleture à la vanne par intermédiaire de la sortie “ Close_Order"
-Lorsque la pompe est ouverte  l’entrée Opened est validée.
-Lorsque la pompe est fermée  l’entrée Closed est validée.
+"**Open**" est la demande d'ouverture de la vanne. Lorsque la demande “**Open**” est activée, l’automate envoie une ouverture à la vanne par intermédiaire de la sortie “ **Open_Order**". Cet ordre doit être maintenu jusqu'à ce que la demande de la fermeture sera validée par l'entrée "**Close**" , l’automate envoie un ordre de la fermeture à la vanne par l'intermédiaire de la sortie “ **Close_Order**".
+Lorsque la pompe est ouverte  l’entrée "**Opened**" est validée.
+Lorsque la pompe est fermée  l’entrée "**Closed**" est validée.
