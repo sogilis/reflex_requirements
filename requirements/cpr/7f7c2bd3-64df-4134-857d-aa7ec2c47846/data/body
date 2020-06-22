@@ -1,0 +1,14 @@
+INPUT
+
+    *  Open  
+    *  Close    
+    *  Opened      
+    *  Closed       
+
+OUTPUT
+
+    *  Open_Order  : ordre d'ouverture de la vanne 
+    *  Close_Order  :  ordre de fermeture de la vanne 
+
+Run est la demande de mise en marche de la pompe. Lorsque la demande “Run” est activée, l’automate envoie un ordre de marche à la pompe par intermédiaire de la sortie “Ordre De Marche”. Cet ordre doit être maintenu.
+Lorsque la pompe est en marche l’entrée Running est validée.
