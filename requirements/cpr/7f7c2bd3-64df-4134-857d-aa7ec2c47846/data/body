@@ -14,6 +14,6 @@
 
 "**Open**" est la demande d'ouverture de la vanne. 
 Lorsque la demande “**Open**” est activée, l’automate envoie une ouverture à la vanne par intermédiaire de la sortie “ **Open_Order**". Cet ordre doit être maintenu jusqu'à ce que la demande de la fermeture sera validée par l'entrée "**Close**" .
-après la demande de la fermeture l’automate envoie à nouveau un ordre mais cette fois-ci celui de la fermeture par l'intermédiaire de la sortie “ **Close Order".
+après la demande de la fermeture l’automate envoie à nouveau un ordre mais cette fois-ci celui de la fermeture par l'intermédiaire de la sortie “ **Close Order**".
 Lorsque la pompe est ouverte  l’entrée "**Opened**" est validée.
 Lorsque la pompe est fermée  l’entrée "**Closed**" est validée.
