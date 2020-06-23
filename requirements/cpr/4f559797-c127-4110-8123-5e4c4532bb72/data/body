@@ -10,4 +10,4 @@
 			
 **BODY**
 
-lorsque la température réglée par le régulateur “**T_Regul**“ atteint la consigne demandée “**Set_Point**“ et la demande de mise en marche de la résistance “**Run**” n’est plus validée la résistance s’arrête jusqu'à ce qu’une nouvelle demande de mise en marche sera validée
+Lorsque la température réglée par le régulateur “**T_Regul**“ atteint la consigne demandée “**Set_Point**“ et la demande de mise en marche de la résistance “**Run**” n’est plus validée la résistance s’arrête jusqu'à ce qu’une nouvelle demande de mise en marche sera validée
