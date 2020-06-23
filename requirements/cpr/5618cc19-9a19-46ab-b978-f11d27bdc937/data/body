@@ -1,0 +1,13 @@
+**INPUT**
+    •     **Run**       
+    •      **Speed_1**  
+    •      **Speed_2**   
+**OUTPUT**
+    •      **Run_Order** : ordre de mise en marche du mixeur
+    •      **v2_Order** : ordre du mixage avec une vitesse V2
+    •      **v1_Order** :  ordre du mixage avec une vitesse V1
+BODY
+“**Run**” est la demande  de mise en marche du mixeur.
+Lorsque la demande “Run” est activée, l’automate envoie unordre de mise en marche au mixeur par intermédiaire de la sortie “ **Run_Order** ". Cet ordre doit être maintenu .
+Lorsque la demande du mixage avec une vitesse V1 est validée par l’entrée "**Speed_1**"  l’automate envoie un ordre du mixage avec une vitesse V1 au mixeur par intermédiaire de la sortie “  **v1_Order** ". Cet ordre doit être maintenu .
+Lorsque la demande du mixage avec une vitesse V2 est validée par l’entrée  **Speed_2** l’automate envoie un ordre du mixage avec une vitesse V2 au mixeur par intermédiaire de la sortie “  **v2_Order** "  et à ce niveau lorsque **Speed_1**  est validée à nouveau  ,l’automate envoie  la sortie “  **v1_Order** " pour passer de la vitesse V2 à la vitesse moins rapide V1 . 
